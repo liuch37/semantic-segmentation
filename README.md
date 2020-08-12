@@ -20,11 +20,13 @@ Simple inference implementation with trained HRNet on MIT ADE20K dataset, using 
 
 ## Results
 
-1. Semantic map:
+### semantic map
 
-ADE_test_00000272.png
+![Image of semantic map](https://github.com/liuch37/semantic-segmentation/blob/master/ADE_test_00000272.png)
 
-2. Sky filtered image:
+### sky filtered image
+
+![Image of semantic map](https://github.com/liuch37/semantic-segmentation/blob/master/ADE_test_00000272_filtered.png)
 
 ## Source
 [1] Original code: https://github.com/CSAILVision/semantic-segmentation-pytorch.
