@@ -6,13 +6,13 @@ Simple inference implementation with trained HRNet with MIT ADE20K dataset, usin
 
 2. Specify your test input image directory and test output image directory in semantic_segmentation.py
 
-image_path
+   image_path
 
-output_path
+   output_path
 
 3. Specify if you want to use GPU or not (-1 for cpu, others for gpu index) in semantic_segmentation.py
 
-gpu = -1
+   gpu = -1
 
 4. Run python semantic_segmentation.py
 
