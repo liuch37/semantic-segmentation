@@ -239,3 +239,9 @@ for image_name in os.listdir(image_path):
     print("Visualization and save......")
     # return original sized prediction discretized class map
     visualize_result(image_path,output_path,image_name,pred,names,colors,W_global,H_global)
+
+    # sky filtering:
+    print("Scene filtering with thresholding......")
+    scene_index = 2 # sky index = 2
+    prob = as_numpy(scores.squeeze(0).cpu())
+    scene_filter(image_path,output_path,image_name,prob,scene_index,W_global,H_global)
