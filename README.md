@@ -1,5 +1,5 @@
 # Semantic Segmentation
-Simple inference implementation with trained HRNet on MIT ADE20K dataset, using PyTorch 1.6.0.
+Simple inference implementation with trained HRNet on MIT ADE20K dataset, using PyTorch 1.6.0. Most of the code taken from [1].
 
 ## Usage
 1. Download pretrained model from http://sceneparsing.csail.mit.edu/model/pytorch and store them in './ade20k-hrnetv2-c1/'
@@ -19,6 +19,6 @@ Simple inference implementation with trained HRNet on MIT ADE20K dataset, using 
 5. All the inference results will be stored in your output_path
 
 ## Source
-Original code: https://github.com/CSAILVision/semantic-segmentation-pytorch.
+[1] Original code: https://github.com/CSAILVision/semantic-segmentation-pytorch.
 
-HRNet: https://arxiv.org/abs/1904.04514.
+[2] HRNet: https://arxiv.org/abs/1904.04514.
