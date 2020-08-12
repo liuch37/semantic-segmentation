@@ -1,5 +1,5 @@
 # Semantic Segmentation
-Simple inference implementation with trained HRNet with MIT ADE20K dataset, using PyTorch 1.6.0.
+Simple inference implementation with trained HRNet on MIT ADE20K dataset, using PyTorch 1.6.0.
 
 ## Usage
 1. Download pretrained model from http://sceneparsing.csail.mit.edu/model/pytorch and store them in './ade20k-hrnetv2-c1/'
