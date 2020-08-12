@@ -18,6 +18,14 @@ Simple inference implementation with trained HRNet on MIT ADE20K dataset, using 
 
 5. All the inference results will be stored in your output_path
 
+## Results
+
+1. Semantic map:
+
+ADE_test_00000272.png
+
+2. Sky filtered image:
+
 ## Source
 [1] Original code: https://github.com/CSAILVision/semantic-segmentation-pytorch.
 
