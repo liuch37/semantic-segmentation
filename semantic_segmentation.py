@@ -172,8 +172,8 @@ padding_constant = 32
 imgMaxSize = 1000
 
 # input image:
-image_path = '../../../data/ADE20K/release_test/'
-output_path = '../../../data/ADE20K/release_test_semantic/'
+image_path = './data/ADE20K/release_test/'
+output_path = './data/ADE20K/release_test_semantic/'
 
 # read color table:
 colors = loadmat('./data/color150.mat')['colors']
