@@ -2,15 +2,15 @@
 Simple inference implementation with trained HRNet on MIT ADE20K dataset, using PyTorch 1.6.0. Most of the code taken from [1]. Purpose of this project is to unify sky pixels with ultra high prediction confidence to a single color, in order to remove sun light effect and inconsistent cloud texture.
 
 ## Usage
-1. Download pretrained model from http://sceneparsing.csail.mit.edu/model/pytorch and store them in './ade20k-hrnetv2-c1/'
+1. Download pretrained model from http://sceneparsing.csail.mit.edu/model/pytorch and store them in ```./ade20k-hrnetv2-c1/```.
 
-2. Specify your test input image directory and test output image directory in semantic_segmentation.py
+2. Specify your test input image directory and test output image directory in ```semantic_segmentation.py```.
 ```
    image_path = './input/'
 
    output_path = './output/'
 ```
-3. Specify if you want to use GPU or not (-1 for cpu, others for gpu index) in semantic_segmentation.py
+3. Specify if you want to use GPU or not (-1 for cpu, others for gpu index) in ```semantic_segmentation.py```.
 ```
    gpu = -1
 ```
